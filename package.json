@@ -1,0 +1,34 @@
+{
+	"name": "geo-country-state-code-selector",
+	"version": "0.0.1",
+	"description": "Country and State Code simple selector",
+	"license": "MIT",
+	"repository": "https://github.com/Steinagel/geo-country-state-code-selector",
+	"author": {
+		"name": "Steinagel",
+		"email": "willian.steinagel@clevertech.biz",
+		"url": "https://github.com/Steinagel"
+	},
+	"type": "module",
+	"exports": "./index.js",
+	"engines": {
+		"node": ">=12"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"geo",
+		"country",
+		"region",
+		"code"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "^3.15.0",
+		"xo": "^0.37.0"
+	}
+}
