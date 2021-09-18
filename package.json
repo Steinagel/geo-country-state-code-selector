@@ -15,7 +15,8 @@
 		"node": ">=12"
 	},
 	"scripts": {
-		"test": "xo && ava"
+		"test": "xo && ava",
+		"coverage": "nyc --reporter=lcov npm test"
 	},
 	"files": [
 		"index.js",
@@ -30,6 +31,7 @@
 	"dependencies": {},
 	"devDependencies": {
 		"ava": "^3.15.0",
+		"nyc": "^15.1.0",
 		"xo": "^0.37.0"
 	}
 }
