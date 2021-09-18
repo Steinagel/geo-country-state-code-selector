@@ -1,6 +1,6 @@
 {
 	"name": "geo-country-state-code-selector",
-	"version": "0.0.2",
+	"version": "0.1.2",
 	"description": "Country and State Code simple selector",
 	"license": "MIT",
 	"repository": "https://github.com/Steinagel/geo-country-state-code-selector",
