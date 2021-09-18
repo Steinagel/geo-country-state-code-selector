@@ -18,13 +18,8 @@
 ## Install
 
 ```sh
-yarn install
-```
-
-## Run tests
-
-```sh
-yarn run test
+yarn add geo-country-state-code-selector
+npm install geo-country-state-code-selector
 ```
 
 ## Usage
