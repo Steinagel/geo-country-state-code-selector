@@ -52,7 +52,7 @@ class GetPlaceCode {
 		}
 
 		const reg = new RegExp(this.__slugify(sub), 'i');
-		return this.__slugify(this.__slugify(string).replace(reg, ''));
+		return this.__trimChar(this.__slugify(string).replace(reg, ''));
 	}
 
 	/**
@@ -171,7 +171,8 @@ class GetPlaceCode {
 		}
 
 		const key = this.__slugify(_country);
-		return this.getData()[key]._short;
+		const countryData = this.getData()[key];
+		return countryData ? countryData._short : country;
 	}
 
 	/**
@@ -188,7 +189,11 @@ class GetPlaceCode {
 
 		const countryKey = this.__slugify(country);
 		const regionKey = this.__slugify(region);
-		return this.getData()[countryKey][regionKey];
+
+		const countryData = this.getData()[countryKey];
+		const regionData = countryData[regionKey];
+
+		return countryData ? regionData || region : region;
 	}
 
 	/**
@@ -220,7 +225,11 @@ class GetPlaceCode {
 			(regionPrefix && this.__removePrefix(region, regionPrefix)) || region;
 		const countryKey = this.__slugify(_country);
 		const regionKey = this.__slugify(_region);
-		return this.getData()[countryKey][regionKey];
+
+		const countryData = this.getData()[countryKey];
+		const regionData = countryData[regionKey];
+
+		return countryData ? regionData || region : region;
 	}
 
 	/**
