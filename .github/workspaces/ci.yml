@@ -13,7 +13,7 @@ jobs:
 
     steps:
       # this will check out the current branch (https://github.com/actions/checkout#Push-a-commit-using-the-built-in-token)
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@master
       # installing Node
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
