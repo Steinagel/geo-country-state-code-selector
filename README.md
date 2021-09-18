@@ -35,7 +35,7 @@ GetPlaceCode.getPrefixedRegionCode(", State of São Paulo", "state-of"); // SP
 GetPlaceCode.getPrefixedRegionCode(", State of São Paulo", "State Of"); // SP
 
 GetPlaceCode.getCountryCode("Brazil"); // BR
-GetPlaceCode.getPrefixedCountryCode("Federation of Brazil", "Fedaration of"); // BR
+GetPlaceCode.getPrefixedCountryCode("Federation of Brazil", "Federation of"); // BR
 
 GetPlaceCode.getRegionCodeByCountry("brazil", "sao paulo"); // SP
 GetPlaceCode.getPrefixedRegionCodeByCountry(
