@@ -11,6 +11,18 @@
 
 > Country and State Code simple selector
 
+## Problem
+
+We need Country and Region Codes, when talking about public input components worldwide, sometimes you need to understand, or even guess user input. I know we can use masks and validators... yes... but this may lead the user to abandon the form submission and we had some idea of how the data could be prefixed, how the commas could come, etc.
+
+## Solution
+
+A lightweight library that could be used in different but standardized scenarios relating to more than 25 pages in more than 5 projects with similar inputs at that time.
+
+With this library, you can get country and region codes.
+
+This library is used alongside other libraries to get the code from addresses.
+
 ## Prerequisites
 
 - node >=12
