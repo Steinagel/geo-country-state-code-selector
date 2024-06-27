@@ -13,7 +13,7 @@
 
 ## Problem
 
-We need Country and Region Codes, when talking about public input components worldwide, sometimes you need to understand, or even guess user input. I know we can use masks and validators... yes... but this may lead the user to abandon the form submission and we had some idea of how the data could be prefixed, how the commas could come, etc.
+We need Country and Region Codes, and when talking about public input components worldwide, sometimes you need to understand, or even guess user input. I know we can use masks and validators... yes... but this may lead the user to abandon the form submission and we had some idea of how the data could be prefixed, how the commas could come, etc.
 
 ## Solution
 
